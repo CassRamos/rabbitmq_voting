@@ -1,0 +1,7 @@
+### CREATE VOTE AND ADD TO QUEUE
+POST http://localhost:8080/api/vote
+Content-Type: application/json
+
+{
+  "candidateId": 5
+}
