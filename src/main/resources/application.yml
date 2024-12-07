@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: bbb_rabbitmq
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/votingsystem
+    username: postgres
+    password: cass2002
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      mode: always
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: pass
+
+
